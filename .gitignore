@@ -1,0 +1,5 @@
+# MATLAB/Simulink ignores
+slprj/
+*.asv
+*.autosave
+*.slxc
