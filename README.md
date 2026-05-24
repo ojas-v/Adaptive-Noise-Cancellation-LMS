@@ -4,7 +4,6 @@
 ![Simulink](https://img.shields.io/badge/Simulink-DSP_Architecture-blue)
 ![Status](https://img.shields.io/badge/Status-Phases_1_to_5_Complete-success)
 
-## The TL;DR for Engineering Managers
 This is a complete, hardware-targeted simulation of a dual-microphone feedforward Adaptive Noise Cancellation (ANC) system. 
 
 I didn't just model the theoretical math; I built this architecture to be directly flashed to an ARM Cortex-M4 or TI C55xx DSP. The system uses a custom **Normalized Filtered-X LMS (NLMS-FxLMS)** engine to dynamically crush a 200-tap simulated acoustic room environment while maintaining strict real-time causality and surviving 16-bit fixed-point quantization.
